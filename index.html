@@ -289,11 +289,16 @@
             opacity: 0.7;
         }
         @media (max-width: 768px) {
-            .hero { padding: 6rem 1.5rem 3rem; }
-            .section { padding: 4rem 1.5rem; }
+            .hero { padding: 4rem 1.5rem 3rem; }
+            .hero-label { font-size: 1.2rem !important; }
+            .hero-subtitle { font-size: 1rem !important; }
+            .section { padding: 3rem 1rem; }
             .journey-grid { flex-direction: column; }
-            .journey-arrow { transform: rotate(45deg) rotate(90deg); }
+            .journey-arrow { display: none; }
+            .journey-card { width: 100%; }
             .experts-grid { grid-template-columns: 1fr 1fr; }
+            .features-grid { grid-template-columns: 1fr; }
+            .section-title { font-size: 1.5rem !important; }
         }
     </style>
 </head>
